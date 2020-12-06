@@ -1,0 +1,92 @@
+{
+	"id": "b7c1be5c-9dfa-5371-5edc-d50f8c5565fd",
+	"name": "PostmanCollectionforUserRestAPI",
+	"description": "",
+	"order": [
+		"975f330d-bd1b-7ab2-3aa6-759d9cd6763b",
+		"0fc12c3f-bfca-54cb-fa66-85d759e281bb",
+		"f09fbb4f-b996-4293-4ce7-c807d322b0fa"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1606891284859,
+	"owner": 0,
+	"public": false,
+	"events": [],
+	"variables": [],
+	"auth": null,
+	"requests": [
+		{
+			"id": "0fc12c3f-bfca-54cb-fa66-85d759e281bb",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/user/addUser",
+			"queryParams": [],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"auth": null,
+			"time": 1809059524506,
+			"name": "AddUser",
+			"description": "Post call to add user",
+			"collectionId": "b7c1be5c-9dfa-5371-5edc-d50f8c5565fd",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null,
+			"rawModeData": "{\n    \"id\": \"123\",\n    \"title\": \"Master\",\n    \"firstName\": \"aaa\",\n    \"lastName\": \"Smith\",\n    \"gender\": \"Male\",\n    \"empID\": \"adsf\",\n    \"address\": {\n        \"id\": \"123\",\n        \"street\": \"LANE STREET\",\n        \"city\": \"SYDNEY\",\n        \"state\": \"NSW\",\n        \"postCode\": \"2000\"\n    }\n}"
+		},
+		{
+			"id": "975f330d-bd1b-7ab2-3aa6-759d9cd6763b",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:8080/user/getAllUsers",
+			"queryParams": [],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"auth": null,
+			"time": 1607059524888,
+			"name": "Get all Users",
+			"description": "get all users",
+			"collectionId": "b7c1be5c-9dfa-5371-5edc-d50f8c5565fd",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "f09fbb4f-b996-4293-4ce7-c807d322b0fa",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:8080/user/9849",
+			"queryParams": [],
+			"events": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"auth": null,
+			"time": 1607059523124,
+			"name": "Get User by ID",
+			"description": "",
+			"collectionId": "b7c1be5c-9dfa-5371-5edc-d50f8c5565fd",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		}
+	]
+}
